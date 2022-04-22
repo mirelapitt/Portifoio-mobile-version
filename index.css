@@ -1,14 +1,13 @@
-body{
+body {
   margin: 0;
-  background: #ffffff;
 }
 
-.font{
+.font {
   font-family: 'Poppins', sans-serif;
 }
 
-h1{
-  color:#172B4D;
+h1 {
+  color: #172b4d;
   margin-top: 5px;
   margin-bottom: 2px;
 }
@@ -24,41 +23,8 @@ h1{
   margin-left: 31px;
 }
 
-.firsth1 {
-  font-size: 32px;
-  font-weight: 700;
-  line-height: 44px;
-  letter-spacing: 0em;
-  text-align: left;
-}
-
-.secondlist {
-  position: static;
-  width: 188px;
-  height: 16px;
-  left: 0px;
-  top: 8px;
-  margin-left: 31px;
-  font-weight: bold
-}
-
-strong{
-  color: #7A869A;
-}
-
-.thirdlist {
-  position: static;
-  width: 29px;
-  height: 16px;
-  left: 0px;
-  top: 8px;
-  margin-left:-50px;
-}
-
-ul {
-  display: inline-flex;
-  padding: 1px;
-  margin-top: 10px;
+strong {
+  color: #7a869a;
 }
 
 p {
@@ -76,34 +42,11 @@ p {
   padding: 4px 12px;
   width: 53px;
   height: 24px;
-  left: 0px;
-  top: 0px;
+  left: 0;
+  top: 0;
   display: inline-flex;
   text-align: center;
   margin: 10px 10px;
-}
-
-.cssbackground {
-  background: #ebebff;
-  border-radius: 8px;
-  padding: 4px 12px;
-  width: 53px;
-  height: 24px;
-  left: 0px;
-  top: 0px;
-  display: inline-flex;
-}
-
-.javascriptbackground {
-  background: #ebebff;
-  border-radius: 8px;
-  padding: 4px 12px;
-  width: 53px;
-  height: 24px;
-  left: 0px;
-  top: 0px;
-  display: inline-flex;
-  align-items: center;
 }
 
 .lang1 {
@@ -116,28 +59,6 @@ p {
   border-radius: 16px;
 }
 
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  gap: 8px;
-  padding: 10px;
-  margin-left: -15px;
-  margin-right: 89px;
-}
-
-.grid-container > button {
-  background-color: #ebebff;
-  text-align: center;
-  font-size: 19px;
-  left: 0px;
-  top: 0px;
-  border-radius: 8px;
-  padding: 4px, 12px, 4px, 12px;
-  padding: 2px;
-  border: 0;
-
-}
-
 .item3 {
   font-size: 12px;
   font-weight: 500;
@@ -146,9 +67,9 @@ p {
   text-align: left;
 }
 
-button {
+.Secondbutton>button {
   border: 1px solid #396df2;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   box-sizing: border-box;
   border-radius: 16px;
   padding: 15px 8px;
@@ -172,22 +93,14 @@ button {
   padding: 2px 10px;
 }
 
-.nostyle{
+.nostyle {
   list-style-type: none;
   font-weight: bold;
-  color:#172B4D
+  color: #172b4d;
 }
 
-.bolslist{
+.bolslist {
   font-weight: bold;
-}
-
-.container4{
-}
-
-ul{
-  display: revert;
-  margin-left:-20px;
 }
 
 .languages li {
@@ -204,7 +117,7 @@ ul{
   width: 77%;
   font-size: 0.5rem;
   margin-bottom: 15px;
-  margin-left: 0rem;
+  margin-left: 0;
 }
 
 .languages_frameworks {
@@ -215,7 +128,7 @@ ul{
   font-size: 0.5rem;
   line-height: 7px;
   padding-bottom: -1rem;
-  margin-left: 0rem;
+  margin-left: 0;
 }
 
 .languages_skills {
@@ -226,7 +139,7 @@ ul{
   font-size: 0.5rem;
   line-height: 5px;
   padding-top: -1rem;
-  margin-left: 0rem;
+  margin-left: 0;
   margin-bottom: 27px;
 }
 
@@ -235,23 +148,93 @@ ul {
   margin-top: 10px;
 }
 
-h4{
+h4 {
   font-size: 252%;
-  color: #000000;
+  color: #000;
 }
 
-.image_float{
+.image_float {
   height: 10px;
   margin-left: 172px;
   margin-top: 34px;
 }
 
-.image_float2{
+.image_float2 {
   height: 33px;
   margin-left: 146px;
 }
 
-.image_float3{
+.image_float3 {
   height: 33px;
-  margin-left: 211px;
+  margin-left: 213px;
+}
+
+span {
+  font-weight: bold;
+  color: #253858;
+  margin-left: 17px;
+}
+
+.project_name {
+  font-size: 36px;
+  font-weight: 700;
+  color: #172b4d;
+  margin: 4px 0;
+  width: 92%;
+}
+
+.first_list {
+  display: flex;
+  color: #7a869a;
+  margin-left: 1px;
+}
+
+.first_list li {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 16px;
+  margin-left: 12px;
+  margin-right: 15px;
+}
+
+.blackcolor {
+  color: #344563;
+}
+
+.tech_list li {
+  padding: 4px 12px;
+  background-color: #ebebff;
+  border-radius: 8px;
+  margin: -9px 1px;
+  list-style: none;
+  display: inline-flex;
+  color: #396df2;
+}
+
+.btn1 {
+  background: none;
+  border: 1px solid #396df2;
+  border-radius: 16px;
+  padding: 16px;
+  margin: 10px 0;
+  color: #396df2;
+}
+
+.btn2 {
+  width: 135px;
+  background: none;
+  border: 1px solid #396df2;
+  border-radius: 16px;
+  padding: 16px;
+  margin: 20px 0;
+  color: #396df2;
+}
+
+ul {
+  margin-left: -3px;
+}
+
+.firsth1 {
+  height: 75px;
+  font-size: 34px;
 }
